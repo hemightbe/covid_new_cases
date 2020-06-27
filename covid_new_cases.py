@@ -129,7 +129,7 @@ df_cd['date'] = pd.to_datetime(df_cd['date'])
 fig = go.Figure()
 fig = make_subplots(specs=[[{"secondary_y": True}]])
 
-#add line / trace 1 to figure
+# add line / trace 1 to figure
 fig.add_trace(go.Scatter(
     x=df_cd['date'],
     y=df_cd['new_cases_x'],
@@ -144,7 +144,7 @@ fig.add_trace(go.Scatter(
     secondary_y=False,
 )
 
-#add line / trace 2 to figure
+# add line / trace 2 to figure
 fig.add_trace(go.Scatter(
     x=df_cd['date'],
     y=df_cd['new_cases_y'],
