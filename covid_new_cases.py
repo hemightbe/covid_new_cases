@@ -3,22 +3,14 @@
 
 # In[2]:
 
-
 from IPython.core.display import display, HTML
 display(HTML("<style>.container { width:100% !important; }</style>"))
 
-import pandas.io.sql as sqlio
 import pandas as pd
 import numpy as np
 
 import plotly.graph_objs as go
-import plotly.express as px
 from plotly.subplots import make_subplots
-import plotly.figure_factory as ff
-import pandas.io.sql as sqlio
-from scipy import integrate 
-
-from plotly.offline import download_plotlyjs, init_notebook_mode, plot, iplot
 
 
 # In[3]:
