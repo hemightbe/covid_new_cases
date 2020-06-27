@@ -98,7 +98,7 @@ fig.update_layout(
     height=700
 )
 
-fig.show('')
+fig.show()
 
 
 # In[8]:
@@ -152,4 +152,4 @@ fig.update_layout(
     height=700
 )
 
-fig.show('')
+fig.show()
