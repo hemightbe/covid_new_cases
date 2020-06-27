@@ -6,7 +6,7 @@ Australia, Austria, Bahrain, Belgium, Brunei, Canada, Cyprus, Denmark, Finland, 
 This resulted in two datasets: the new cases per day in the US and the new cases in all the socialized medicine countries per day, summed together.  These datasets are then plotted in two ways.  Once on the same y-axis scale showing new cases per day in both the US and the countries with socialized medicine and then on two different y-axis scales, each relative to its respective dataset.  The latter helping to control for population in the two datasets.
 
 
-Data file (`owid-covid-data.csv`) can be obtained from https://ourworldindata.org/coronavirus-testing#testing-for-covid-19-background-the-our-world-in-data-covid-19-testing-dataset or https://github.com/owid/covid-19-data/tree/master/public/data/
+The newest data file (`owid-covid-data.csv`) https://github.com/owid/covid-19-data/tree/master/public/data/
 
 usage:
 
