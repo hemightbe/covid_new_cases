@@ -13,5 +13,5 @@ usage:
 with `owid-covid-data.csv` in the directory as `covid_new_cases.py`:
 
 ```
-python ./covid_new_cases.py
+$ python ./covid_new_cases.py
 ```
