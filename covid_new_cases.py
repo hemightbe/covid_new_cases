@@ -32,7 +32,7 @@ df_all_world.columns = [c.lower().replace(' ', '_') for c in df_all_world.column
 
 
 dropdownLocationVals = ['United States']
-dropdownOtherVals = ['Australia','Austria','Bahrain','Belgium','Brunei','Canada','Cyprus','Denmark','Finland','France','Germany','Greece','Hong Kong','Iceland','Ireland','Israel','Italy','Japan','Kuwait','Luxembourg','the Netherlands','New Zealand','Norway','Portugal','Singapore','Slovenia','South Korea','Spain','Sweden','Switzerland','the United Arab Emirates','United Kingdom']
+dropdownOtherVals = ['Australia','Austria','Bahrain','Belgium','Brunei','Canada','Cyprus','Denmark','Finland','France','Germany','Greece','Hong Kong','Iceland','Ireland','Israel','Italy','Japan','Kuwait','Luxembourg','Netherlands','New Zealand','Norway','Portugal','Singapore','Slovenia','South Korea','Spain','Sweden','Switzerland','the United Arab Emirates','United Kingdom']
 
 df_all_world['start_week'] = pd.to_datetime(df_all_world.date)
 df_all_world = df_all_world[(df_all_world['start_week'] >= '2020-04-01')]
