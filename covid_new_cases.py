@@ -153,10 +153,3 @@ fig.update_layout(
 )
 
 fig.show('notebook')
-
-
-# In[ ]:
-
-
-
-
